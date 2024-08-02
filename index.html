@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-------------------Font awesome------------------------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+  
+</head>
+   
+<body>
+   <header class="header">
+     <a href="#" class="logo"> Portfolio</a>
+     
+     <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <nav class="navbar">
+
+            <a href= "#home" class="active">Home</a>
+            <a href= "#about"> About</a>
+            <a href= "#services">Services</a>
+            <a href= "#portfolio">Portfolio</a>
+            <a href= "#contact">Contact</a>
+        </nav>
+   </header>
+      
+  <!----------HOME SECTION----------->    
+
+   <section class="home" id = "home">
+        <div class="home-content">
+          <h3 >Hi My name is</h3>
+          <h1> Bhavya Vinaik Singh</h1>
+          <h3> and i am a <span>Software Developer</span></h3>
+          <p style="font-size: medium; ">  I am a Passionate computer Science Undergrad with knowledge prior in building innovative applications specializing in full-stack development & Machine Learning</p>
+             
+          <div class="social-media">
+             <a href="https://www.instagram.com/bhav.negi/"><i class="fa-brands fa-instagram"></i> </a>
+             <a href="https://www.linkedin.com/in/bhavya-vinaik-singh-805697202/"><i class="fa-brands fa-linkedin"></i> </a>
+             <a href="https://github.com/bhav59"><i class="fa-brands fa-github"></i> </a>
+          </div>
+        <a href="#" class="btn">Download CV</a>
+       </div>
+
+       <div class="home-img">
+          <img src="bg.png" >
+
+       </div>
+   </section>
+
+ <!----------ABOUT  SECTION----------->
+
+   <section class="about" id="about">
+    <div class="about-img">
+        <img src="https://d117h1jjiq768j.cloudfront.net/images/default-source/blogs/2018/2018-12/developers-vs-low-code-what-they-think-and-why_870x433.jpg?sfvrsn=49bddde3_1">
+    </div>
+
+    
+      
+     <div class="about-content">
+         <h2 class="heading">About <span> Me</span></h2>
+         <h3>Web Developer</h3>
+         <p id="para">Hello! I'm Bhavya a passionate and driven computer science student currently pursuing my undergraduate degree. My journey into the world of technology started with a curiosity about how things work and has evolved into a deep-seated interest in developing innovative solutions to real-world problems i tries to learn something every day and eager to learn more.</p>
+         <a href="#para" class="btn">Read more</a>
+     </div>
+    </section>
+  <!----------SERVICES  SECTION----------->
+    <section class="services" id="services">
+        <h2 class="heading">My<span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+              <i class="fa-solid fa-code"></i>
+               <h3>Web Developer</h3>
+               <p>Reactjs,Nodejs,Mongodb,express</p>
+                 
+         </div>
+
+          <div class="services-box">
+          <i class="fa-solid fa-palette"></i>
+             <h3>Web Designer</h3>
+             <p>Html,CSS,JS,Bootstrap,Tailwind</p>
+       </div>
+
+        <div class="services-box">
+        <i class="fa-brands fa-python"></i>
+           <h3>Machine Learning</h3>
+           <p>Python,Numpy,,jupyter,Matpotlib</p>
+           
+        </div>
+     </div>
+ </section>
+
+  <!----------PORTFOLIO SECTION----------->
+
+ <section class="Portfolio" id="portfolio">
+  <h2 class="heading">Recent<span>Projects</span></h2>
+
+  <div class="portfolio-container">
+    <div class="portfolio-box">
+      <img src="https://www.bigcountryhomepage.com/wp-content/uploads/sites/56/2019/11/Weather-v2-1.jpg?strip=1" alt="">
+    <div class="portfolio-layer">
+     
+       <h3>Weather Forecaster App</h3>
+       <i class="fa-solid fa-up-right-from-square"></i>
+       </div>
+   </div>
+    
+   <div class="portfolio-box">
+    <img src="https://unsplash.com/blog/content/images/size/w1200/max/2560/1-v5mbrBmzwqUA5OyVqy7w-g.jpeg" alt="">
+     <div class="portfolio-layer">
+     <h3>image app</h3>
+     <i class="fa-solid fa-up-right-from-square"></i>
+     </div>
+ </div>
+
+     <div class="portfolio-box">
+      <img src="https://miro.medium.com/v2/resize:fit:626/0*SaNg8uUaKCMQSS5g.jpg" alt="">
+    <div class="portfolio-layer">
+       <h3>Stock predictor</h3>
+       <i class="fa-solid fa-up-right-from-square"></i>
+       </div>
+    </div>
+  </div>
+</section>
+   
+
+<!----------CONTACT SECTION----------->
+
+<section class="contact" id="contact">
+  <h2 class="heading">Contact<span>Me</span></h2>
+  
+  <form action="https://api.web3forms.com/submit" method="POST" onsubmit="alert('Message sent succesfully')">
+    <input type="hidden" name="access_key" value="68ab1f33-dc03-4d18-beeb-d04f0d570a07">
+        <div class="input-box">
+            <input type="text"  name="name" placeholder="Full Name">
+            <input type="email" name="email"  placeholder="E Mail">
+           
+      </div>
+          <div class="input-box">
+            <input type="number"  name="phonenumber" placeholder="Phone no">
+            <input type="text"  placeholder="Subject">
+
+          </div>
+          <textarea name="" id="msg" cols="30" rows="10"  placeholder="Your Message"></textarea>
+          <input type="submit" value="Send Message" class="btn">
+
+  </form>
+</section>
+  
+<div class="social-media" style="display: flex; justify-content:center; align-items: center;" >
+  <a href="https://bhavyavsnegi67@gmail.com"><i class="fa-regular fa-envelope"></i> </a>
+  <a href="https://www.linkedin.com/in/bhavya-vinaik-singh-805697202/"><i class="fa-brands fa-linkedin"></i> </a>
+  <a href="https://github.com/bhav59"><i class="fa-brands fa-github"></i> </a>
+</div>
+
+<!---------------FOOTER---------------->
+
+<footer class="footer">
+   <div class="footer-text">
+      <p>Copyright &copy;2024 by @Bhavyavinaiksingh | All Rights Reserved.</p>
+   </div>
+
+  <div class="footer-iconTop">
+      <a href="#home"> <i class="fa-solid fa-angle-up"></i></a>
+  </div>
+
+ </footer>
+
+<!--------------Scroll Reveal JS----------------->
+ <script src="https://unpkg.com/scrollreveal"></script>
+
+
+ <!--------------Main JS------------->
+<script src="script.js"></script>
+</body>
+</html>
+
