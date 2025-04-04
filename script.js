@@ -57,3 +57,16 @@ ScrollReveal().reveal('.home-img, .services-container, .portfolio-box, .contact 
 ScrollReveal().reveal('.home-content h1, .about-img', {origin: 'left'});
 ScrollReveal().reveal('.home-content p, .about-content', {origin: 'right'});
 
+/*--------------------------------DOWNLOAD RESUME-------------------------------------*/
+
+document.getElementById("downloadCV").addEventListener("click", function () {
+    const link = document.createElement("a");
+    link.href = "RESUME.pdf"; // Ensure the file is in the same directory as your HTML file
+    link.download = "RESUME.pdf"; // Set the name for the downloaded file
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+});
+
+
+
