@@ -61,8 +61,8 @@ ScrollReveal().reveal('.home-content p, .about-content', {origin: 'right'});
 
 document.getElementById("downloadCV").addEventListener("click", function () {
     const link = document.createElement("a");
-    link.href = "RESUME.pdf"; // Ensure the file is in the same directory as your HTML file
-    link.download = "RESUME.pdf"; // Set the name for the downloaded file
+    link.href = "Resume_Bhavya.pdf"; // Ensure the file is in the same directory as your HTML file
+    link.download = "Resume_Bhavya.pdf" ; // Set the name for the downloaded file
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
